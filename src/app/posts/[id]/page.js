@@ -4,15 +4,15 @@ import styles from "./post.module.css";
 // export const fetchCeche
 const Post = async ({ params }) => {
   //Get Single Post
-  let post;
-  const response = await fetch(`http://localhost:3000/api/posts/${params.id}`);
-  post = await response.json();
-  post = post[0];
+  // let post;
+  // const response = await fetch(`http://localhost:3000/api/posts/${params.id}`);
+  // post = await response.json();
+  // post = post[0];
 
   // Get Posts
-  let posts = await fetch("http://localhost:3000/api/posts");
-  posts = await posts.json();
-  let postsLength = posts.length;
+  // let posts = await fetch("http://localhost:3000/api/posts");
+  // posts = await posts.json();
+  // let postsLength = posts.length;
 
   return (
     <div className={styles.container}>

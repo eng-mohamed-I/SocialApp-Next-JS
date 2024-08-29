@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./post.module.css";
-import dbConnect from "../../../lib/mogodb";
+// import dbConnect from "../../../lib/mogodb";
 import { dbPosts } from "../../../data/db";
 import { BiLike } from "react-icons/bi";
 import { FaRegComment } from "react-icons/fa";
@@ -18,22 +18,22 @@ const Posts = async () => {
   let posts = [];
 
   // Data Base Connection
-  const dbConnected = await dbConnect;
+  // const dbConnected = await dbConnect;
 
-  // Database
-  const db = dbConnected.db();
+  // // Database
+  // const db = dbConnected.db();
 
-  // OLDWAY
-  // Collection in Database
+  // // OLDWAY
+  // // Collection in Database
 
-  //check about data and fill it
-  posts = await db.collection("posts").find({}).toArray();
+  // //check about data and fill it
+  // posts = await db.collection("posts").find({}).toArray();
 
   // fill posts in your in database
   if (posts.length == 0) {
     console.log(posts.length);
     console.log("posts fill...");
-    await db.collection("posts").insertMany(dbPosts);
+    // await db.collection("posts").insertMany(dbPosts);
     //OLDWAY
     // posts = await db.collection("posts").find({}).toArray(); //get data after fill
     console.log("Completed, Posts is Ready to use");
@@ -42,8 +42,8 @@ const Posts = async () => {
   }
 
   // End Point For Posts
-  posts = await fetch("http://localhost:3000/api/posts");
-  posts = await posts.json();
+  // posts = await fetch("http://localhost:3000/api/posts");
+  // posts = await posts.json();
 
   // Loading
   const timePromise = await new Promise((resolve, reject) => {
@@ -51,7 +51,7 @@ const Posts = async () => {
       resolve();
     }, 3000);
   });
-
+// h1 
   return (
     <div className={styles.container}>
       <button class={styles.addbutton}>
