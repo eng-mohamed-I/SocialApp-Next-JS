@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./post.module.css";
 // import dbConnect from "../../../lib/mogodb";
-import { dbPosts } from "../../../data/db";
+// import { dbPosts } from "../../../data/db";
 import { BiLike } from "react-icons/bi";
 import { FaRegComment } from "react-icons/fa";
 import { FaRegShareSquare } from "react-icons/fa";

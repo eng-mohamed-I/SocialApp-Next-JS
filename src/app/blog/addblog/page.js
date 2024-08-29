@@ -1,5 +1,5 @@
 import { redirect } from "next/dist/server/api-utils";
-import dbConnect from "../../../../lib/mogodb";
+// import dbConnect from "../../../../lib/mogodb";
 import styles from "./addblog.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { revalidatePath } from "next/cache";
@@ -13,9 +13,9 @@ const AddBlog = () => {
   const uploadBlog = async (formData) => {
     "use server";
 
-    let dbConnection = await dbConnect;
-    let db = dbConnection.db();
-    let blogs = await db.collection("blogs").find({}).toArray();
+    // let dbConnection = await dbConnect;
+    // let db = dbConnection.db();
+    // let blogs = await db.collection("blogs").find({}).toArray();
     let title = formData.get("title");
     let body = formData.get("body");
 
@@ -24,7 +24,7 @@ const AddBlog = () => {
       title: title,
       body: body,
       userId: 1,
-      id: +blogs[blogs.length - 1].id + 1,
+      // id: +blogs[blogs.length - 1].id + 1,
     };
 
     if (title != "" || body != "") {
