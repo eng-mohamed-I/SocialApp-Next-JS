@@ -1,0 +1,92 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 100px;
+  }
+  
+  .h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .post {
+    border: 1px solid gray;
+    padding: 1.5rem;
+    color: rgb(213, 213, 213);
+    background-color: #222222;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h2 {
+    margin-bottom: 0.5rem;
+    color: #fefefe;
+  }
+  
+  .date {
+    font-size: 0.875rem;
+    color: #8d8d8d;
+    margin-bottom: 1rem;
+  }
+  
+  .readMore {
+    color: #0070f3;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: all .5s ease;
+  }
+  
+  .readMore:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /* add button  */
+  .btnContainer{ 
+    margin-bottom: 20px;
+  }
+.addbutton {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link{ 
+  text-decoration: none;
+  color:white;
+}
+.addbutton:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.addbutton:active {
+  background-color: #1e7e34;
+  transform: scale(0.98);
+}
+
+.addbutton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(72, 180, 97, 0.5);
+}
+
+.events { 
+  display: flex;
+  gap: 5px;
+}

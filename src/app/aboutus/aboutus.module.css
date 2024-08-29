@@ -1,0 +1,19 @@
+.container {
+    min-width: 90vh;
+    min-height: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }

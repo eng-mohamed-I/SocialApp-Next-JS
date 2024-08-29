@@ -1,0 +1,93 @@
+.container {
+    text-align: center;
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: #0a0a0a;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2b2b2b;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 70%;
+    min-height: 80vh;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 6px 12px rgba(75, 75, 75, 0.2);
+}
+
+.card h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card div {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.card a {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+.link { 
+    text-decoration: none;
+    color: white
+}
+/* add button  */
+.addbutton {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addbutton:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .addbutton:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+  }
+  
+  .addbutton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(72, 180, 97, 0.5);
+  }
+  
+  .events { 
+    display: flex;
+    gap: 5px;
+  }
