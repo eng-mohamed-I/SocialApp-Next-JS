@@ -18,7 +18,7 @@ const AddBlog = () => {
     // let blogs = await db.collection("blogs").find({}).toArray();
     let title = formData.get("title");
     let body = formData.get("body");
-
+    //aahhhhhhh
     let blog = {
       new: true,
       title: title,
