@@ -11,7 +11,7 @@ const AboutUs = () => {
       </p>
       <p className={styles.p}>
         At Gaza, we believe in the power of communication to foster community
-        and build lasting relationships. Whether you're connecting with old
+        and build lasting relationships. Whether youre connecting with old
         friends or meeting new ones, our app provides the tools you need to stay
         engaged and informed.
       </p>
