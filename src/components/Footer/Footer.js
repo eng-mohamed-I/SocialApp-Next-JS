@@ -6,13 +6,13 @@ export default function Footer() {
       <div className={styles.container}>
         <p>&copy; 2024 Gaza Store. All rights reserved.</p>
         <div className={styles.links}>
-          <a href="/about-us">About Us</a>
+          <a href="/aboutus">About Us</a>
           <a href="/contact-us">Contact Us</a>
           <a href="/privacy-policy">Privacy Policy</a>
         </div>
         <div className={styles.social}>
           <a
-            href="https://twitter.com"
+            href="http://localhost:3001/aboutus"
             target="_blank"
             rel="noopener noreferrer"
           >

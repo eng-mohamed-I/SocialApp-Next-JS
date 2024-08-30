@@ -4,20 +4,21 @@ const AboutUs = () => {
     <div className={`${styles.container} col-12`}>
       <h1 className={styles.h1}>About Us</h1>
       <p className={styles.p}>
-        Welcome to Your Company Name! We are dedicated to providing the best
-        products and services to our customers. Our mission is to deliver
-        high-quality solutions that meet the needs of our diverse clientele.
+        Welcome to Gaza, your gateway to meaningful connections and seamless
+        communication. Our app is designed to bring people closer, offering a
+        dynamic platform where you can send messages, share moments, and explore
+        a wide range of features tailored to enhance your social experience.
       </p>
       <p className={styles.p}>
-        Our team is composed of passionate professionals who are experts in
-        their fields. We believe in innovation, integrity, and customer
-        satisfaction as the core values that drive our business.
+        At Gaza, we believe in the power of communication to foster community
+        and build lasting relationships. Whether you're connecting with old
+        friends or meeting new ones, our app provides the tools you need to stay
+        engaged and informed.
       </p>
       <p className={styles.p}>
-        Since our founding, we have grown significantly, expanding our offerings
-        and improving our services continuously. We are proud of our journey so
-        far and excited about the future. Thank you for choosing us as your
-        trusted partner.
+        Join us on Gaza and discover a world of possibilities where your voice
+        can be heard, your ideas can be shared, and your connections can grow
+        stronger.
       </p>
     </div>
   );

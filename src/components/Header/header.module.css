@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #000000e3;
+    background-color: #000000de;
     /* box-shadow: 0 4px 12px rgb(0, 0, 0); */
     color: #fff;
     position: fixed;
@@ -19,8 +19,9 @@
     margin: 0;
   }
   
+  
   .navItem {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding: 8px 16px;
     color: #fff;
     text-decoration: none;
@@ -30,26 +31,21 @@
   }
   
   .navItem:hover {
-    background-color: rgba(255, 255, 255, 0.2);
     color: #b5b5b5;
   }
   
   .active {
-    background-color: rgba(94, 94, 94, 0.3);
-    color: #9a9a9a;
+    color: #0033cb;
   }
   
   @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      padding: 20px;
-    }
   
     .navItem {
       margin-left: 0;
       margin-top: 10px;
       width: 100%;
       text-align: center;
+      font-size: small;
     }
   
     .h1 {
