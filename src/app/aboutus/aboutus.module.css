@@ -1,6 +1,5 @@
 .container {
-    min-width: 90vh;
-    min-height: 800px;
+  width: 80%;    
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
