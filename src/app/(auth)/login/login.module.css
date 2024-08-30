@@ -2,7 +2,7 @@
   min-width: 400px;
   margin: 20vh auto;
   padding: 40px;
-  background-color: #ffffff;
+  background-color: #232323;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -12,7 +12,7 @@
 .title {
   margin-bottom: 30px;
   font-size: 2rem;
-  color: #333;
+  color: #bfbfbf;
   font-weight: bold;
 }
 
