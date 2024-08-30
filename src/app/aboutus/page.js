@@ -1,7 +1,7 @@
 import styles from "./aboutus.module.css";
 const AboutUs = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} col-12`}>
       <h1 className={styles.h1}>About Us</h1>
       <p className={styles.p}>
         Welcome to Your Company Name! We are dedicated to providing the best
